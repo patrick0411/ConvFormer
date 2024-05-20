@@ -297,7 +297,7 @@ class multi_conv(nn.Module):
 
 
 
-class SSVEPformer(nn.Module):
+class ConvFormer(nn.Module):
     def __init__(self, depth, attention_kernal_length, chs_num, class_num, dropout):
         super().__init__()
         token_num = chs_num * 2
